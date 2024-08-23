@@ -1,18 +1,18 @@
 In this  project all focus are given to learning design pattern
 
-Design Patterns: A Brief Overview
-Design patterns are proven solutions to common software design problems. They provide a template or guideline for structuring code in a way that is both reusable and maintainable. These patterns capture best practices and principles used by experienced developers, making them easier to apply across different projects.
+# Design Patterns: A Brief Overview
+# Design patterns are proven solutions to common software design problems. They provide a template or guideline for structuring code in a way that is both reusable and maintainable. These patterns capture best practices and principles used by experienced developers, making them easier to apply across different projects.
 
-Categories of Design Patterns:
-Creational Patterns:
+# Categories of Design Patterns:
+## Creational Patterns:
 
 Focus on object creation mechanisms.
 Examples: Singleton, Factory Method, Builder, Abstract Factory.
-Structural Patterns:
+## Structural Patterns:
 
 Deal with object composition and relationships to form larger structures.
 Examples: Adapter, Composite, Decorator, Proxy, Facade.
-Behavioral Patterns:
+## Behavioral Patterns:
 
 Concerned with object interaction, communication, and responsibility.
 Examples: Observer, Strategy, Command, Chain of Responsibility, State.
@@ -26,7 +26,7 @@ Communication: They provide a shared vocabulary for developers, improving team c
 
 
 
-Singleton Design Pattern
+# Singleton Design Pattern
 Definition
 The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance. It’s useful when exactly one object is needed to coordinate actions across the system.
 
@@ -39,3 +39,14 @@ Logger classes
 Configuration settings managers
 Connection pools
 Thread pools
+
+# Factory Design Pattern in Python
+Definition:
+The Factory Design Pattern is a creational design pattern used to create objects without specifying the exact class of object that will be created. Instead of calling a constructor directly to create an object, you use a factory method that returns instances of a class based on the input or configuration. This pattern is useful for managing and maintaining the creation logic of objects.
+
+## Key Concepts:
+Factory Method: A method for creating objects in a superclass but allowing subclasses to alter the type of created objects.
+Product: The interface or abstract class for objects that the factory method creates.
+Concrete Product: The actual implementation of the Product interface.
+Creator: The class that declares the factory method.
+Concrete Creator: The class that implements the factory method.

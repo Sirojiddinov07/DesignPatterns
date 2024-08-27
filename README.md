@@ -1,6 +1,5 @@
 In this  project all focus are given to learning design pattern
 
-# Design Patterns: A Brief Overview
 # Design patterns are proven solutions to common software design problems. They provide a template or guideline for structuring code in a way that is both reusable and maintainable. These patterns capture best practices and principles used by experienced developers, making them easier to apply across different projects.
 
 # Categories of Design Patterns:
@@ -40,7 +39,7 @@ Configuration settings managers
 Connection pools
 Thread pools
 
-# Factory Design Pattern in Python
+# Factory Design Pattern 
 Definition:
 The Factory Design Pattern is a creational design pattern used to create objects without specifying the exact class of object that will be created. Instead of calling a constructor directly to create an object, you use a factory method that returns instances of a class based on the input or configuration. This pattern is useful for managing and maintaining the creation logic of objects.
 
@@ -50,3 +49,15 @@ Product: The interface or abstract class for objects that the factory method cre
 Concrete Product: The actual implementation of the Product interface.
 Creator: The class that declares the factory method.
 Concrete Creator: The class that implements the factory method.
+
+
+#  Abstract Factory design pattern
+
+The Abstract Factory design pattern is a creational pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. This pattern is particularly useful when a system needs to be independent of how its objects are created and represented.
+
+## Key Concepts
+Abstract Factory Interface: Declares a set of methods for creating abstract products.
+Concrete Factory Classes: Implement the abstract factory interface and produce concrete products.
+Abstract Product Interface: Declares the interface for a type of product object.
+Concrete Product Classes: Implement the abstract product interface.
+

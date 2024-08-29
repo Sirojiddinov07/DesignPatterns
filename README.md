@@ -61,3 +61,12 @@ Concrete Factory Classes: Implement the abstract factory interface and produce c
 Abstract Product Interface: Declares the interface for a type of product object.
 Concrete Product Classes: Implement the abstract product interface.
 
+# Builder design pattern 
+
+The Builder design pattern is a creational design pattern used to construct complex objects step by step. Instead of creating the object directly using a constructor, the Builder pattern provides a way to construct a complex object by specifying the type and content of the object it is to produce. It allows you to create different types and representations of an object using the same construction process.
+
+## Key Concepts of the Builder Pattern:
+Builder: An abstract interface that defines the methods for creating the parts of a Product object.
+Concrete Builder: A class that implements the Builder interface to construct and assemble parts of the product.
+Director: Constructs an object using the Builder interface. The Director class is optional and often used to construct the object in a particular sequence.
+Product: The complex object that is being constructed.

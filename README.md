@@ -70,3 +70,11 @@ Builder: An abstract interface that defines the methods for creating the parts o
 Concrete Builder: A class that implements the Builder interface to construct and assemble parts of the product.
 Director: Constructs an object using the Builder interface. The Director class is optional and often used to construct the object in a particular sequence.
 Product: The complex object that is being constructed.
+
+# Prototype Design Pattern
+The Prototype Design Pattern is a creational pattern used to create new objects by copying an existing object, known as the prototype, rather than creating a new instance from scratch. This pattern is useful when the cost of creating a new object is more expensive than cloning an existing one.
+
+## Key Concepts:
+Prototype: The original object that is cloned to create new objects.
+Client: The part of the code that requests the cloning of objects.
+

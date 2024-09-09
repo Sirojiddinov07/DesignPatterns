@@ -78,3 +78,17 @@ The Prototype Design Pattern is a creational pattern used to create new objects 
 Prototype: The original object that is cloned to create new objects.
 Client: The part of the code that requests the cloning of objects.
 
+
+## Behavioral patterns are design patterns that focus on communication between objects, and the ways in which objects collaborate to achieve a common goal. These patterns help to manage complex control flows and interactions between objects, and provide a way to separate the responsibilities of different objects in a system.
+
+# Command Design 
+
+## The Command Design Pattern is a behavioral design pattern that turns a request into a stand-alone object that contains all information about the request. This pattern allows for the decoupling of objects that send commands from objects that execute them, making it easier to implement actions such as undo/redo, logging, and queueing.
+
+
+## Key Components:
+Command Interface: Declares the execute() method.
+Concrete Commands: Implement the Command interface, defining specific actions.
+Invoker: Requests the command to execute an action.
+Receiver: Contains the actual logic to perform the action.
+Client: Creates ConcreteCommand objects and associates them with the receiver.
